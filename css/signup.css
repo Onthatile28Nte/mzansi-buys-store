@@ -49,7 +49,7 @@ header img{
     margin-top: 20px;
 }
 
-form{
+#signup-form{
     margin: 100px auto;
     display: flex;
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.5);
@@ -71,7 +71,7 @@ fieldset input{
     padding: 15px;
     border-radius: 10px;
     width: 100%;
-    border-color: rgb(255, 255, 255);  
+    border: none;
 }
 
 fieldset button{
@@ -81,6 +81,8 @@ fieldset button{
     margin: auto;
     background-color: #0245ba;
     color: white;
+    font-weight: bolder;
+    border: none;
     transition: 0.2s ease-in-out;
 }
 
