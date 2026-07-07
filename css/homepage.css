@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --orange-color:#fe6901;
+    --blue-color: #0245ba;
+    --darker-orange: #c15000
+}
+
+.container{
+    height: 110vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.522);
+    padding: 10px;
+}
+
+.homepage-logo-text{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.homepage-search-cart{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-left: 25%;
+}
+
+input[type="search"]{
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    border: none;
+    margin-left: 350px;
+}
+
+
+.homepage-search-cart a{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav img{
+    width: 110px;
+    height: 110px;
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav a{
+    margin-left: 400px;
+    font-size: 40px;
+}
+
+form i{
+    font-size: 20px;
+    background-color: white;
+    padding-right: 10px;
+    padding-bottom: 22px;
+    padding-top: 14px;
+    margin-left: -13px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+h1{
+    text-align: center;
+    margin: 50px auto;
+}
+
+h2{
+    text-align: center;
+    margin: 50px auto;
+    background: linear-gradient( var(--orange-color),var(--blue-color) );
+    padding: 20px;
+    color: white;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.electronics-container{
+   display: flex;
+   column-gap: 20px;
+   justify-content: space-evenly;
+
+}
+
+.electric-grid img{
+    width: 240px;
+    height: 220px;
+}
+
+.electric-grid{
+    border-radius: 20px;
+    box-shadow:0px 8px 20px rgba(128, 128, 128, 0.807);
+    padding: 20px;
+    width: 25%;
+    transition: 0.2s ease-in-out;
+}
+
+.electric-grid:hover{
+    transform: scale(1.1);
+    box-shadow:0px 8px 20px rgb(92, 92, 92);
+
+}
+.luggage-container{
+   display: flex;
+   column-gap: 20px;
+   justify-content: space-evenly;
+
+}
+
+.luggage-grid img{
+    width: 240px;
+    height: 220px;
+}
+
+.luggage-grid{
+    border-radius: 20px;
+    box-shadow:0px 8px 20px rgba(128, 128, 128, 0.807);
+    padding: 20px;
+    width: 25%;
+    transition: 0.2s ease-in-out;
+}
+
+.luggage-grid:hover{
+    transform: scale(1.1);
+    box-shadow:0px 8px 20px rgb(92, 92, 92);
+
+}
+
+.deals-container{
+    display: flex;
+   column-gap: 20px;
+   justify-content: space-evenly;
+
+}
+
+.deals-grid{
+    border-radius: 20px;
+    box-shadow:0px 8px 20px rgba(128, 128, 128, 0.807);
+    padding: 20px;
+    width: 25%;
+    transition: 0.2s ease-in-out;
+}
+
+.deals-grid:hover{
+    transform: scale(1.1);
+    box-shadow:0px 8px 20px rgb(92, 92, 92);
+}
+
+.deals-grid img{
+    width: 240px;
+    height: 220px;
+}
