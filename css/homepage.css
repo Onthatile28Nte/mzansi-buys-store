@@ -169,3 +169,23 @@ h2{
     width: 240px;
     height: 220px;
 }
+
+.combined-price{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.discount-percentage{
+    color: red;
+}
+
+.old-price{
+    text-decoration:line-through;
+    color: gray;
+    font-size: 14px;
+}
+
+.rating i{
+    color: var(--orange-color);
+}
