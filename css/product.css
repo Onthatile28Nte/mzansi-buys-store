@@ -87,12 +87,89 @@ form i{
 .electric-container-details{
     display:flex;
     flex-direction:column;
-    justify-content:center;
 }
 
+.elec-details{
+    box-shadow:0px 8px 20px rgba(128, 128, 128, 0.807);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 500px;
+    width: 50%;
+    border-radius: 20px;
+    padding: 50px;
+}
 
-.electronic-details-1 img{
+.elec-details input{
+    width: 50%;
+}
+.elec-details button{
+    width: 50%;
+}
+
+.elec-details img{
     width: 240px;
     height: 220px;
+    text-align: center;
 }
 
+
+.luggage-container-details{
+    display:flex;
+    flex-direction:column;
+}
+
+.lugg-details{
+    box-shadow:0px 8px 20px rgba(128, 128, 128, 0.807);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 500px;
+    width: 50%;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.lugg-details input{
+    width: 50%;
+}
+.lugg-details button{
+    width: 50%;
+}
+
+.lugg-details img{
+    width: 240px;
+    height: 220px;
+    text-align: center;
+}
+
+
+
+.deals-container-details{
+    display:flex;
+    flex-direction:column;
+}
+
+.deals-details{
+    box-shadow:0px 8px 20px rgba(128, 128, 128, 0.807);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 500px;
+    width: 50%;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.deals-details input{
+    width: 50%;
+}
+.deals-details button{
+    width: 50%;
+}
+
+.deals-details img{
+    width: 240px;
+    height: 220px;
+    text-align: center;
+}

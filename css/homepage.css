@@ -24,14 +24,10 @@ nav{
     background-color: rgba(0, 0, 0, 0.522);
     padding: 10px;
     position: fixed;
-   
-}
-
-header{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    column-gap: 18%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 .homepage-logo-text{
@@ -196,5 +192,20 @@ h2{
 }
 
 .rating i{
+    color: var(--orange-color);
+}
+
+.view-product{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.view-product:hover{
+    text-decoration: underline;
+}
+
+.view-product:active{
     color: var(--orange-color);
 }
